@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Piano Trigger</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <style id="user-css"></style>
+  </head>
+  <body>
+    <div id="app">
+      <header id="topbar">
+        <button id="btn-back" hidden>Back</button>
+        <h1 id="title">Piano Trigger</h1>
+        <span id="tr-badge" class="badge" hidden></span>
+        <div class="spacer"></div>
+        <label id="arm" class="arm" hidden>
+          <span id="arm-text">Off</span>
+          <span class="switch"
+            ><input type="checkbox" id="arm-input" /><i></i
+          ></span>
+        </label>
+        <button id="btn-edit" hidden>Edit</button>
+        <button id="btn-reset" hidden>Restart</button>
+        <button id="btn-settings">Settings</button>
+      </header>
+      <main id="view"></main>
+    </div>
+    <div id="toasts"></div>
+    <script src="app.js"></script>
+  </body>
+</html>
