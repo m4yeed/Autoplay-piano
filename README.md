@@ -4,8 +4,6 @@
   Minimal desktop app that plays piano melodies on key press.
 </p>
 
-![Autoplay-piano](docs/screenshot.png)
-
 ## Features
 
 - One key press = one note from your song, hold to repeat
